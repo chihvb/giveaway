@@ -7,7 +7,7 @@ function App() {
   const [isSpinning, setIsSpinning] = useState(false);
   const [winner, setWinner] = useState('');
 
-  const PREDETERMINED_WINNER = "@chahine.joujou";
+  const PREDETERMINED_WINNER = "chahine.joujou";
 
   const handleAddNames = (newNames: string[]) => {
     const uniqueNames = Array.from(new Set(newNames));
