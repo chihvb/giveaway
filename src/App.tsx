@@ -24,7 +24,7 @@ function App() {
     setWinner('');
 
     // Simulate random selection animation
-    const duration = 60000; // 8 seconds
+    const duration = 20000; // 8 seconds
     const startTime = Date.now();
 
     const animate = () => {
